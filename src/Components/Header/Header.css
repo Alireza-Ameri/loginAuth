@@ -1,0 +1,33 @@
+.header {
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 100px;
+}
+
+.title h3 {
+  font-size: 24px;
+}
+
+.navbar {
+  width: 400px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar li {
+  margin: 0px 30px;
+  font-size: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
