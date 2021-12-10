@@ -1,0 +1,58 @@
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 80px;
+  margin-left: 550px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.form-control-sign {
+  width: 250px;
+  margin: 20px 0px;
+}
+
+.input {
+  border: 0;
+  height: 25px;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  width: 100px;
+
+  border: 1px solid gray;
+  margin-left: 70px;
+  color: black;
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
+
+.form-title-sign {
+  text-align: center;
+  width: 200px;
+}
+
+.form-title-sign span {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
